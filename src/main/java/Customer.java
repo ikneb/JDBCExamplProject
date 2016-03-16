@@ -8,6 +8,9 @@ public class Customer {
     private int quad;
     private int nmuber;
 
+    public Customer(){}
+
+
     public Customer(int id,String name,int quad,int number){
         this.id = id;
         this.name = name;
